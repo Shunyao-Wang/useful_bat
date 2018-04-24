@@ -43,6 +43,7 @@ goto Q
 @echo 2、启用无线网络:
 netsh interface set interface "WLAN" enabled
 netsh interface set interface "以太网" disabled
+@echo 【无线网络启用成功！】
 @echo\
 goto Q
 :C
